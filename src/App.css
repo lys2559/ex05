@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.App {
+    font-family: 'GmarketSansMedium';
+}
+
+.ellipsis {
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+ }
+
+ .App a {
+    text-decoration: none;
+    color: gray;
+    padding: 5px 20px 10px 0px;
+ }
